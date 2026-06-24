@@ -17,7 +17,7 @@
     contact: false,
   });
   const productData = [
-    { title: "Enterprise Solutions", icon: "💻", items: ["Multi-brand Servers", "Networking Solutions", "Structured Cabling", "Wi-Fi Infrastructure", "Firewall & Security", "NAS & Storage", "Enterprise Backup", "IT Infrastructure Consulting"] },
+    { title: "Enterprise Solutions", icon: "💡", items: ["Multi-brand Servers", "Networking Solutions", "Structured Cabling", "Wi-Fi Infrastructure", "Firewall & Security", "NAS & Storage", "Enterprise Backup", "IT Infrastructure Consulting"] },
     { title: "Computing", icon: "💻", items: ["Laptops", "Desktops", "Tablets", "Refurbished Systems"] },
     { title: "Printing Solutions", icon: "🖨️", items: ["Printers", "Barcode Printers", "Thermal Printers", "Billing Printers", "Barcode Scanners", "Refills", "Inks"] },
     { title: "Software", icon: "💿", items: ["Tally Software", "Microsoft Products", "Antivirus Solutions"] },
