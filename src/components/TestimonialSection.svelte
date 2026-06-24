@@ -110,7 +110,7 @@
   function updateSize() {
     const { matches } = window.matchMedia("(min-width: 768px)");
     isMobile = !matches;
-    cardWidth = matches ? 340 : 280;
+    cardWidth = matches ? 340 : 300;
   }
 
   onMount(() => {
@@ -126,7 +126,7 @@
   });
 
   // How far from center a card can be and still be shown at all.
-  let visibleRange = $derived(isMobile ? 0 : 1);
+  let visibleRange = $derived(isMobile ? 1 : 2);
 </script>
 
 <section id="reviews" class="py-24 bg-white overflow-hidden" use:intersect={(v) => { if (v) isVisible = true; }}>
@@ -139,7 +139,7 @@
 
       <div
         class="relative mx-auto"
-        style={`height: ${isMobile ? 380 : 360}px;`}
+        style={`height: ${isMobile ? 400 : 380}px;`}
         in:fly={{ y: 80, duration: 1200, easing: backOut, delay: 150 }}
         role="region"
         aria-roledescription="carousel"
@@ -161,7 +161,7 @@
               ${!isCenter && isVisibleSlot ? "cursor-pointer hover:-translate-y-1" : ""}`}
             style={`
               width: ${cardWidth}px;
-              height: 320px;
+              height: ${isMobile ? 340 : 320}px;
               transform:
                 translate(-50%, -50%)
                 translateX(${position * cardWidth * 0.62}px)
@@ -202,7 +202,7 @@
 
               <p
                 class={`italic mb-6 text-sm sm:text-base ${isCenter ? "text-white" : "text-brand-text"}`}
-                style="display:-webkit-box; -webkit-line-clamp:7; -webkit-box-orient:vertical; overflow:hidden;"
+                style="display:-webkit-box; -webkit-line-clamp:8; -webkit-box-orient:vertical; overflow:hidden;"
               >
                 "{t.content}"
               </p>
