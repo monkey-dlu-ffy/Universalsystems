@@ -24,7 +24,7 @@
       <div class="bg-white rounded-lg p-1.5 shadow-sm transition-transform group-hover:scale-105">
         <img src="/images/logo2.png" alt="Universal Systems Logo" class="h-14 w-16 object-contain mix-blend-multiply" />
       </div>
-      <div class="hidden sm:block">
+      <div>
         <h1 class="text-xl font-bold text-brand-primary leading-tight font-outfit">Universal Systems</h1>
         <p class="text-[0.65rem] uppercase tracking-wider text-brand-muted font-semibold">IT Solution Provider</p>
       </div>
