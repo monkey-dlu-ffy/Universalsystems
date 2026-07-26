@@ -1,0 +1,8 @@
+# robots.txt for Universal Systems
+# Allow search engines to crawl the entire website
+
+User-agent: *
+
+Allow: /
+
+Sitemap: https://universalsystems.in/sitemap.xml
