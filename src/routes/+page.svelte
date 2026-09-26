@@ -435,8 +435,9 @@
             <h4 class="font-bold text-xl mb-1 font-outfit tracking-wide">
               Visit Us
             </h4>
-            <p class="text-blue-100/70 font-light leading-relaxed">
-              9, V V Shopping Plaza, Fairlands,<br />Salem, Tamil Nadu
+            < class="text-blue-100/70 font-light leading-relaxed">
+              Sri Kamatchiamman plaza, First Floor, 7 Arts College <br />Opp. District Library,Cherry Road, Salem
+              
             </p>
           </div>
         </div>
@@ -451,7 +452,7 @@
               Call Us
             </h4>
             <p class="text-blue-100/70 font-light leading-relaxed">
-              +91 9952399906 / +91 9952399006
+              +91 9952399906
             </p>
           </div>
         </div>
@@ -480,7 +481,7 @@
           >Call Now</a
         >
         <a
-          href="https://maps.app.goo.gl/YyAMiy86aPe8Y6Vp7"
+          href="https://maps.app.goo.gl/WHW8jk4unhahBJ5n6?g_st=aw"
           target="_blank"
           class="px-8 py-4 bg-white/10 text-white font-bold rounded-md border border-white/20 hover:bg-white/20 transition-all backdrop-blur-md hover:shadow-lg hover:-translate-y-1 text-center"
           >Get Directions</a

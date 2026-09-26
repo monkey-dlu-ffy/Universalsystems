@@ -105,8 +105,8 @@
     <div>
       <h3 class="font-bold text-lg mb-6 text-brand-surface font-outfit tracking-wide uppercase">Contact Details</h3>
       <div class="space-y-4 font-light text-brand-border/80">
-        <p class="flex items-start gap-3"><span class="text-brand-secondary">📍</span> 9, V V Shopping Plaza, Fairlands,<br>Salem, Tamil Nadu</p>
-        <p class="flex items-center gap-3"><span class="text-brand-secondary">📞</span> +91 9952399906 / 9952399006</p>
+        <p class="flex items-start gap-3"><span class="text-brand-secondary">📍</span> Sri Kamatchiamman plaza, First Floor, 7 Arts College <br>Opp. District Library,Cherry Road, Salem</p>
+        <p class="flex items-center gap-3"><span class="text-brand-secondary">📞</span> +91 9952399906</p>
         <p class="flex items-center gap-3"><span class="text-brand-secondary">📄</span> GST: 33AABFU3428P1ZX</p>
       </div>
     </div>
