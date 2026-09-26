@@ -435,10 +435,10 @@
             <h4 class="font-bold text-xl mb-1 font-outfit tracking-wide">
               Visit Us
             </h4>
-            < class="text-blue-100/70 font-light leading-relaxed">
-              Sri Kamatchiamman plaza, First Floor, 7 Arts College <br />Opp. District Library,Cherry Road, Salem
-              
-            </p>
+            <p className="text-blue-100/70 font-light leading-relaxed">
+  Sri Kamatchiamman plaza, First Floor, 7 Arts College <br />
+  Opp. District Library, Cherry Road, Salem
+</p>
           </div>
         </div>
         <div class="flex items-start gap-5">
